@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro Cliente</h1>
+        <form>
+            <div class="row">
+                <div>
+                    <label>Nome</label>
+                    <input type="text" placeholder="Digite seu primeiro nome">
+                </div>
+                <div>
+                    <label>Sobrenome</label>
+                    <input type="text" placeholder="Digite seu Sobrenome">
+                </div>
+            </div>
+            <label>E-mail</label>
+            <input type="email" placeholder="Digite seu E-mail">
+
+            <div class="row">
+                <div>
+                    <label>Data Nascimento</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>CPF</label>
+                    <input type="text" placeholder="Ex: 000.000.000-00">
+                </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <label>CEP</label>
+                    <input type="text" placeholder="Digite seu CEP">
+                </div>
+                <div>
+                    <label>Complemento</label>
+                    <input type="text" placeholder="Ex: apartamento 3">
+                </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <label>Cidade</label>
+                    <input type="text" placeholder="Nome da Cidade">
+                </div>
+                <div>
+                    <label>Bairro</label>
+                    <input type="text" placeholder="Nome do Bairro">
+                </div>
+            </div>
+
+            <label>Rua</label>
+            <input type="text" placeholder="Nome da Rua">
+
+            <label>Número da residência</label>
+            <input type="text" placeholder="N:">
+
+            <label>Trabalha?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="trabalha"> Sim</label>
+                <label><input type="radio" name="trabalha"> Não</label>
+            </div>
+            <label>Criar Senha</label>
+            <input type="password" placeholder="Digite sua senha">
+
+            <label>Confirmar Senha</label>
+            <input type="password" placeholder="Digite novamente sua senha">
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
